@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+<link rel="icon" type="image/x-icon" href="sp.jpg">
+<title>Solar Panels</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+</head>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Solar<br>Panels</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Showcase</a> 
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Services</a> 
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Designers</a> 
+    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Packages</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Company Name</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="Facts">
+    <h1 class="w3-jumbo"><b>What about Solar Panels?</b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>Facts!</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+  </div>
+  
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <p>solar energy technology came on its own in 1954, when Bell Laboratories created the first commercially solar cell. Since that time, solar power has jumped into prominence as the fastest-growing sector of the energy economy, creating jobs at six times the rate of the general job market. There are lots 
+	  of advantages to using solar energy. The U.S. alone generates enough electricity from solar energy to power more than 11.3 million homes. And that number continues to rise as we pursue increased energy independence reducing effects of fossil fuels on the environment. Solar Energy being cheaper than fossil fuels.Most solar systems come with a warranty. The warranty we offer at SunPower by Freedom Solar is a 25 year warranty on product (guarantees the quality of the system), 25 year warranty on service (repair or replace defective panels) and 25 year warranty on power (guarantees highest power production).173,000 terawatts of solar energy hit the Earth continuously that’s greater than 10,000 times the world’s total energy use. There are over 57 million square miles of land on Earth. In order to power the entire planet, we would need to install solar panels on just over 191,000 square miles </p>
+
+    
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Solar skin Design</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Solar skin is a flexible, transparent material that is very thin yet very efficient at producing an electrical current when it’s exposed to sunlight.
+
+Think of it as being a thick piece of saran wrap that could be applied to virtually any surface—the exterior of homes, cars, utility poles—almost anything!
+
+The applications could be extended to the field of consumer electronics, too. Before long, solar skin could be applied to your smartphone, and charging it would be as simple as placing it in direct sunlight. How does it work you may ask, well Solar skin is infused with billions of tiny, 
+photoelectric particles called ‘Quantum Dots’. These particles get excited when they are subjected to photons, which is what sunlight is chiefly composed of. The challenge with solar skin up to this point has been its disappointing efficiency. However, the researchers at the University of Queensland have recently worked out a way to improve this efficiency by 25%, yielding solar skin that has an overall efficiency rating of 16.6%.
+
+This means that, of all the potential solar energy that is exposed to the solar skin, 16.6% of it is effectively converted into electricity.
+
+By comparison, high-efficiency solar panels are about 19-22% efficient. This means solar skin is quickly approaching ‘prime time’ for commercial and residential use. </p>
+<img src="solarskin.jpg" style="width:100%">
+  </div>
+  
+  <!-- Designers -->
+  <div class="w3-container" id="designers" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Wearable solars</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    
+    <p>Solar clothing uses photovoltaic cells in order to harness the sun’s energy and use their to power electronic gadgets.  Photovoltaic cells are made from semiconductor materials, such as silicon, which have the ability to conduct electricity under some conditions but not others.
+
+When a small packet of light, known as a photon, hits the surface of the photovoltaic cell a discreet amount of its energy is absorbed and transferred to the semiconducting material. Helping power hearing aids or step counters.When a small packet of light, known as a photon, hits the surface of the photovoltaic cell a discreet amount of its energy is absorbed and transferred to the semiconducting material.
+
+This energy ‘knocks’ an electron loose allowing it to flow freely within the semiconductor, thus creating an electrical current.
+    </p>
+<img src="wearable-solar.png" style="width:100%">
+<img src="solarglasses.png" style="width:50%"></p>
+  </div>
+
+  <!-- The Team -->
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col m4 w3-margin-bottom">
+     
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+     
+    </div>
+  </div>
+
+  <!-- Packages / Pricing Tables -->
+  <div class="w3-container" id="packages" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Solar Air Conditioning</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Solar photovoltaic (Solar PV) air conditioners – These systems work by capturing the sun's solar energy using solar panels, usually mounted on a building's roof. The solar PV panels convert this solar energy into electricity to power all the constituent parts of a traditional split system.The electricity that is not used is stored in a battery array for later use. Some hybrid air conditioner systems are connected to the electricity grid to provide an extra boost if the sun is not strong enough to charge the batteries.Solar thermal hybrid air conditioners use solar energy to aid the compressor in the refrigeration process. ... Absorption chillers use solar energy to power the fan and the motor in a heating and cooling process that uses water evaporation and condensation to produce cool air.In recent years, the demand for comfort has been accentuated due to the earth’s changing climate. Therefore, the use of air-conditioning systems is increased, which leads to higher costs and consumption of energy. It also significantly contributes to the global warming. For instance, in the United States, air conditioners use about 6% of the entire electricity produced, at an annual cost of about $ 29 billion to homeowners. Consequently, roughly 117 million metric tons of CO2, per year, are released into the atmosphere.
+<img src="Solar-powered-AC.png" style="width:100%">
+</p>
+  </div>
+
+  <div class="w3-row-padding">
+    
+    
+  </div>
+  
+  <!-- Contact -->
+  <div class="w3-container" id="Solar Trees" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Solar Trees.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+	<p>Solar trees are intended to bring visibility to solar technology and to enhance the landscape and architecture they complement, usually in a commercial or public context. An objective of many solar tree installations is to promote awareness, understanding, and adoption of renewable energy. They are not typically used as a primary source of energy for a property—that role is accomplished by rooftop solar systems. Solar trees are complementary to rooftop solar systems, or other green building measures, symbolizing these larger investments and their environmental benefit.
+Solar trees may build awareness and interest in solar technology and also provide shade and meeting places. The origins begining in 1998 when a 7 KW tree in Gleisdorf, austria, a number of variants of solar trees being conceived not all of them realizing insallations. For example, Ross Lovegrove, a Welsh industrial designer known for his organic inspired designs, conceived an organic-looking solar structure with multiple curve stems and circular collections of photovoltaic cells. It was first manufactured by Artemide, a manufacturer of design differentiated products, based in Milan, Italy. In an effort to follow an environmentally conscious route, the company sought to incorporate solar power in their 
+architectural designs.
+<img src="solartree.jpg" style="width:100%"></p>
+
+    
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
